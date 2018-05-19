@@ -1,0 +1,80 @@
+#siteOfTheDay{
+    position: absolute;
+    width: 100px;
+    top:0;
+    left: 0;
+}
+.jumbotron{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    background: red;
+    background: url('htc-high-res-audio-earphones-black-04.jpg');
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+.container{
+    height: 100%;
+    position: relative;
+    top:50px;
+    right: 5%;
+}
+h1{
+    font-family: 'Crimson Text', serif;
+    color: #b2a37d;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background: #333;
+    border: none !important;
+    transition: all .5s;
+    color: #b2a37d;
+    margin: auto;
+    border: none;
+}
+
+    #mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; 
+    margin:auto;}
+	
+
+.btn:hover{
+    background: #333;
+   transform: scale(1.1);
+}
+
+.btn:active{
+    background: #333;
+}
+
+@media screen and (max-width: 780px){
+    #siteOfTheDay{
+        display: none;
+    }
+    .container{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .btn{
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+   
+}
